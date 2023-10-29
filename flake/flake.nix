@@ -22,5 +22,7 @@
           libtool_1_5
           wget
         ]; };
+
+        packages.nix-deps = pkgs.callPackage ./nix_deps.nix { };
       });
 }

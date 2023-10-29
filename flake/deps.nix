@@ -1,3 +1,4 @@
+{ fetchurl }:
 [
   {
     name = "abseil_cpp";
