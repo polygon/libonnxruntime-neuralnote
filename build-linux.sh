@@ -11,6 +11,7 @@ build_arch() {
 
 	python onnxruntime/tools/ci_build/build.py \
 	--build_dir "onnxruntime/build/linux_${arch}" \
+	--skip_submodule_sync \
 	--config=${CMAKE_BUILD_TYPE} \
 	--parallel \
 	--minimal_build \
